@@ -7,7 +7,31 @@
 
 ## 📚 学习语言
 
-### 🦀 Rust语言学习 (`rust-learning/`) ⭐ 新增！
+### ☕ Java语言学习 (`java-learning/`) 🔥 热门企业级！
+- **适合人群**: Java初学者到企业级开发者
+- **学习目标**: 掌握Java企业级开发，成为后端专家
+- **特色**: 面向对象、Spring生态、微服务架构、企业级应用
+- **应用领域**: 企业级应用、微服务、大数据处理、Android开发
+- **学习资源**: 完整语法指南 + Spring实战 + 项目案例
+- **预计时间**: 4-8个月成为企业级专家
+
+### ⚡ JavaScript语言学习 (`javascript-learning/`) 🔥 全栈必学！
+- **适合人群**: 前端和全栈开发初学者
+- **学习目标**: 掌握现代JavaScript全栈开发技能
+- **特色**: 现代语法、异步编程、前后端通用、生态丰富
+- **应用领域**: 前端开发、Node.js后端、移动应用、桌面应用
+- **学习资源**: ES6+语法 + DOM操作 + 异步编程 + 实战项目
+- **预计时间**: 3-6个月成为全栈开发者
+
+### 🚀 Groovy语言学习 (`groovy-learning/`) ⭐ 脚本专家！
+- **适合人群**: Java开发者和脚本自动化爱好者
+- **学习目标**: 掌握Groovy动态编程和构建工具使用
+- **特色**: 动态语言、Java兼容、Gradle构建、DSL设计
+- **应用领域**: 构建脚本、测试自动化、快速原型、DSL开发
+- **学习资源**: 核心语法 + 闭包编程 + 元编程 + Web开发
+- **预计时间**: 2-4个月成为Groovy专家
+
+### 🦀 Rust语言学习 (`rust-learning/`)
 - **适合人群**: Rust初学者到进阶开发者
 - **学习目标**: 掌握Rust系统编程语言，成为Rust专家
 - **特色**: 内存安全、高性能、并发编程、完整学习体系
@@ -30,9 +54,12 @@
 ## 🚀 快速开始
 
 ### 选择学习路径
-1. **Rust学习** - 追求性能和安全的系统编程
-2. **Go学习** - 快速构建高并发Web服务
-3. **Python学习** - 快速入门编程和数据处理
+1. **Java学习** - 企业级后端开发的首选语言 🔥
+2. **JavaScript学习** - 前端和全栈开发必学语言 ⚡
+3. **Groovy学习** - Java生态的动态脚本语言 🚀
+4. **Rust学习** - 追求性能和安全的系统编程
+5. **Go学习** - 快速构建高并发Web服务
+6. **Python学习** - 快速入门编程和数据处理
 
 ### 学习建议
 1. 🎯 **明确目标**: 根据职业规划选择主要学习语言
@@ -45,15 +72,31 @@
 ```
 my-learn-center/
 ├── README.md                # 项目总说明（本文件）
-├── rust-learning/          # Rust语言学习资料
-│   ├── README.md           # Rust学习指南
-│   ├── basic-syntax/       # 基础语法
-│   ├── advanced-features/  # 高级特性
+├── java-learning/          # Java企业级开发学习 ☕
+│   ├── README.md           # Java学习指南
+│   ├── Java核心语法指南.md    # 完整语法教程
 │   ├── examples/          # 代码示例
 │   ├── exercises/         # 练习题
 │   └── projects/          # 实战项目
-├── golang-learning/        # Go语言学习资料
-└── python3-learning/       # Python3学习资料
+├── javascript-learning/    # JavaScript全栈开发学习 ⚡
+│   ├── README.md           # JavaScript学习指南
+│   ├── JavaScript核心语法指南.md  # 现代JS教程
+│   ├── examples/          # 前后端示例
+│   ├── exercises/         # 编程练习
+│   └── projects/          # 全栈项目
+├── groovy-learning/        # Groovy动态语言学习 🚀
+│   ├── README.md           # Groovy学习指南
+│   ├── Groovy核心语法指南.md    # 语法和特性教程
+│   ├── examples/          # 代码示例
+│   ├── exercises/         # 练习题
+│   └── projects/          # DSL和脚本项目
+├── rust-learning/          # Rust系统编程学习 🦀
+│   ├── README.md           # Rust学习指南
+│   ├── examples/          # 代码示例
+│   ├── exercises/         # 练习题
+│   └── projects/          # 实战项目
+├── golang-learning/        # Go语言学习资料 🐹
+└── python3-learning/       # Python3学习资料 🐍
 ```
 
 ## 🎓 学习成果预期
