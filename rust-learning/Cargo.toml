@@ -1,0 +1,36 @@
+[workspace]
+members = [
+    "projects/cli_tool",
+    # "projects/web_server",
+    # "projects/concurrent_downloader", 
+    # "projects/mini_database"
+]
+
+# 工作空间级别的依赖，所有成员项目都可以使用
+[workspace.dependencies]
+tokio = "1.0"
+serde = "1.0"
+serde_json = "1.0"
+clap = "4.0"
+anyhow = "1.0"
+chrono = "0.4"
+
+# 工作空间配置
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Rust学习者 <learner@example.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/username/rust-learning"
+
+# 发布配置优化
+[profile.release]
+opt-level = 3           # 最大优化
+lto = true              # 链接时优化
+codegen-units = 1       # 减少并行编译单元以提高优化
+panic = "abort"         # panic时直接终止，减小二进制文件大小
+
+[profile.dev]
+opt-level = 0           # 开发时不优化，加快编译速度
+debug = true            # 包含调试信息
+overflow-checks = true  # 开启溢出检查 
